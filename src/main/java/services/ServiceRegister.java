@@ -2,6 +2,7 @@ package services;
 
 import models.entities.Item;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,7 +13,11 @@ public class ServiceRegister implements ServiceConsumer {
     private List<ServiceConsumer> serviceConsumers;
 
     public Object search(String terms) {
-        return null;
+        List<Object> results = new ArrayList<Object>();
+        for (ServiceConsumer consumer : serviceConsumers){
+            results.add(consumer.search(terms));
+        }
+        return results;
     }
 
     public Object addTrackToPlaylist() {
