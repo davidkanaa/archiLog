@@ -12,10 +12,12 @@ public class ServiceRegister implements ServiceConsumer {
 
     private List<ServiceConsumer> serviceConsumers;
 
-    public Object search(String terms) {
-        List<Object> results = new ArrayList<Object>();
+    public List<Item> search(String terms) {
+        List<Item> results = new ArrayList<Item>();
         for (ServiceConsumer consumer : serviceConsumers){
-            results.add(consumer.search(terms));
+            for (Item item : consumer.search(terms)){
+                results.add(item);
+            };
         }
         return results;
     }

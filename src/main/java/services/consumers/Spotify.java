@@ -24,7 +24,7 @@ public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
         this.baseURL = "https://api.spotify.com";
     }
 
-    public Object search(String terms) {
+    public List<Item> search(String terms) {
         String query = terms.replaceAll("\\s", "%20");
         List<Item> results = new ArrayList<Item>();
 
