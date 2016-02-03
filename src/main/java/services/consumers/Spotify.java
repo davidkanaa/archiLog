@@ -10,6 +10,7 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,19 +19,21 @@ import java.util.List;
  */
 public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
 
-    private String clientSecretKey = "b0488685a25345f9bd7006a2459ce7d2";
-
     public Spotify() {
         this.baseURL = "https://api.spotify.com";
         this.clientID = "ea319403675f4db29fcce916fff2679f";
     }
 
     public List<Item> search(String terms) {
-        String query = terms.replaceAll("\\s", "%20");
+
+        String query;
+        URL url;
         List<Item> results = new ArrayList<Item>();
 
         try {
-            URL url = new URL(baseURL+"/v1/search?q="+query+"&type="+"track");
+
+            query = URLEncoder.encode(terms, "UTF-8");
+            url = new URL(baseURL+"/v1/search?q="+query+"&type="+"track");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
 
@@ -45,7 +48,7 @@ public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
                 Track track = new Track();
 
                 // Sets the album name.
-                String albumName = ((JsonObject) jsonTrack.get("album")).get("name").toString();
+                String albumName = ((JsonObject) jsonTrack.get("album")).getString("name");
                 track.setAlbumName(albumName);
 
                 // Sets the list of artists.
@@ -61,15 +64,15 @@ public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
                 track.setDuration(duration);
 
                 // Sets title.
-                String title = jsonTrack.get("name").toString();
+                String title = jsonTrack.getString("name");
                 track.setTitle(title);
 
                 // Sets uri.
-                String uri = jsonTrack.get("preview_url").toString();
+                String uri = jsonTrack.getString("preview_url");
                 track.setUri(uri);
 
                 // Sets id.
-                String id = jsonTrack.get("id").toString();
+                String id = jsonTrack.getString("id");
                 track.setId(id);
 
                 // Sets provider.
