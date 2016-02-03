@@ -1,21 +1,23 @@
 package models.entities;
 
+import services.ServiceConsumer;
+
 /**
  * Created by davidkanaa on 16-01-29.
  */
 public class Item {
 
-    protected String providerName; // The id of the service provider in the service register.
+    protected ServiceConsumer provider;
     protected String title;
     protected String uri;
     protected String id; // The id of the item in the db of its service provider.
 
-    public String getProviderName() {
-        return providerName;
+    public ServiceConsumer getProvider() {
+        return provider;
     }
 
-    public void setProviderName(String providerName) {
-        this.providerName = providerName;
+    public void setProvider(ServiceConsumer provider) {
+        this.provider = provider;
     }
 
     public String getTitle() {
