@@ -1,4 +1,4 @@
-package modules;
+package modules.searcher;
 
 import models.entities.Item;
 import services.ServiceConsumer;
