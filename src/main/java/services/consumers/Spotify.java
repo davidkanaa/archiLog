@@ -21,6 +21,7 @@ public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
     private String clientSecretKey = "b0488685a25345f9bd7006a2459ce7d2";
 
     public Spotify() {
+        this.providerName = "Spotify";
         this.baseURL = "https://api.spotify.com";
         this.clientID = "ea319403675f4db29fcce916fff2679f";
     }
