@@ -1,5 +1,6 @@
 package services;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -11,7 +12,9 @@ public class ServiceRegister{
     private List<ServiceConsumer> serviceConsumers;
     private static ServiceRegister instance_;
 
-    private ServiceRegister(){}
+    private ServiceRegister(){
+        serviceConsumers = new ArrayList<ServiceConsumer>();
+    }
 
     public static ServiceRegister getInstance_(){
 
@@ -22,8 +25,8 @@ public class ServiceRegister{
         return instance_;
     }
 
-    public Iterator<ServiceConsumer> getServiceConsumers() {
-        return serviceConsumers.iterator();
+    public List<ServiceConsumer> getServiceConsumers() {
+        return serviceConsumers;
     }
 
     public  void loadService(ServiceConsumer s){
