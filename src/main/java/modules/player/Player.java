@@ -11,4 +11,5 @@ public class Player {
 
     List<Track> queue;
     int currentPosition;
+    PlayerState state;
 }
