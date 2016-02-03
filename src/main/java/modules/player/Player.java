@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by davidkanaa on 16-02-02.
  */
-public class Player {
+public class Player implements IPlayer{
 
     private List<Track> queue;
     private int currentPosition;
