@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class Searcher {
 
-    List<Item> results;
+    private List<Item> results;
 
     public Searcher() {
         results = new ArrayList<Item>();
