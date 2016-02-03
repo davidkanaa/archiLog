@@ -18,10 +18,11 @@ import java.util.List;
  */
 public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
 
+    private String clientSecretKey = "b0488685a25345f9bd7006a2459ce7d2";
 
     public Spotify() {
-        this.providerName = "Spotify";
         this.baseURL = "https://api.spotify.com";
+        this.clientID = "ea319403675f4db29fcce916fff2679f";
     }
 
     public List<Item> search(String terms) {
@@ -71,8 +72,8 @@ public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
                 String id = jsonTrack.get("id").toString();
                 track.setId(id);
 
-                // Sets provider name.
-                track.setProviderName(this.providerName);
+                // Sets provider.
+                track.setProvider(this);
 
                 // Adding to the results.
                 results.add(track);
