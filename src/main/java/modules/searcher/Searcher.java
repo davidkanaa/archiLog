@@ -5,7 +5,6 @@ import services.ServiceConsumer;
 import services.ServiceRegister;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -13,21 +12,24 @@ import java.util.List;
  */
 public class Searcher {
 
-    ServiceRegister register;
-    Iterator<Item> results;
+    List<Item> results;
+
+    public Searcher() {
+        results = new ArrayList<Item>();
+    }
 
     public void search(String terms) {
 
         List<Item> results = new ArrayList<Item>();
 
-        while (register.getServiceConsumers().hasNext()){
-            ServiceConsumer consumer = register.getServiceConsumers().next();
-            for (Item item : consumer.search(terms)){
-                results.add(item);
-            }
+        for (ServiceConsumer consumer:
+                ServiceRegister.getInstance_().getServiceConsumers()) {
+            results.addAll(consumer.search(terms));
         }
-        this.results = results.iterator();
+        this.results = results;
     }
 
-
+    public List<Item> getResults() {
+        return results;
+    }
 }
