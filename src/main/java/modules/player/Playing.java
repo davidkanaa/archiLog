@@ -5,7 +5,7 @@ package modules.player;
  */
 public class Playing implements PlayerState {
 
-    public void play() {
+    public void play(Player player) {
         //TODO implement the play behaviour.
     }
 }
