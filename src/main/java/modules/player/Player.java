@@ -18,7 +18,6 @@ public class Player implements IPlayer{
 
 
 
-
     private Player() {
         this.queue = new ArrayList<Track>();
         this.currentPosition = 0;
@@ -27,7 +26,7 @@ public class Player implements IPlayer{
 
 
     public void play(){
-        state.play(this.instance_);
+        state.play(instance_);
     }
     public void next(){
         // Plays the next track in the queue if state is Playing.
@@ -58,5 +57,9 @@ public class Player implements IPlayer{
 
     public PlayerState getState() {
         return state;
+    }
+
+    public static Player getInstance_() {
+        return instance_;
     }
 }
