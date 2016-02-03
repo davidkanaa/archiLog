@@ -1,5 +1,6 @@
 package services;
 
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -21,7 +22,7 @@ public class ServiceRegister{
         return instance_;
     }
 
-    public List<ServiceConsumer> getServiceConsumers() {
-        return serviceConsumers;
+    public Iterator<ServiceConsumer> getServiceConsumers() {
+        return serviceConsumers.iterator();
     }
 }
