@@ -25,4 +25,8 @@ public class ServiceRegister{
     public Iterator<ServiceConsumer> getServiceConsumers() {
         return serviceConsumers.iterator();
     }
+
+    public  void loadService(ServiceConsumer s){
+        serviceConsumers.add(s);
+    }
 }

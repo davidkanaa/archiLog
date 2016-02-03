@@ -34,4 +34,16 @@ public class Track extends Item {
     public void setDuration(long duration) {
         this.duration = duration;
     }
+
+    @Override
+    public String toString() {
+        return "Track{" + '\n'+
+                "id = " + id + '\n'+
+                "title = " + title + '\n'+
+                "uri = " + uri + '\n'+
+                "albumName = '" + albumName + '\'' + "," + '\n'+
+                "artitsNames = " + artitsNames + "," +'\n'+
+                "duration = " + duration + '\n' +
+                '}';
+    }
 }
