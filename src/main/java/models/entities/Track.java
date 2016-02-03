@@ -44,6 +44,6 @@ public class Track extends Item {
                 "albumName = '" + albumName + '\'' + "," + '\n'+
                 "artitsNames = " + artitsNames + "," +'\n'+
                 "duration = " + duration + '\n' +
-                '}';
+                "};";
     }
 }
