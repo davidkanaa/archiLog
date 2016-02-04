@@ -17,6 +17,12 @@ import java.util.List;
 /**
  * Created by davidkanaa on 16-01-29.
  */
+
+/**
+ *
+ * The consumer associated with Spotify. It consumes the Spotify RestFul API.
+ *
+ */
 public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
 
     public Spotify() {
@@ -24,6 +30,11 @@ public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
         this.clientID = "ea319403675f4db29fcce916fff2679f";
     }
 
+    /**
+     * Runs a search over Spotify's database.
+     * @param terms Terms of the search.
+     * @return The results of the search as a list of Items.
+     */
     public List<Item> search(String terms) {
 
         String query;

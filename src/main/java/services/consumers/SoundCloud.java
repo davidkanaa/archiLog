@@ -19,6 +19,12 @@ import java.util.List;
 /**
  * Created by davidkanaa on 16-02-02.
  */
+
+/**
+ *
+ * The consumer associated with SoundCloud. It consumes the SoundCloud RestFul API.
+ *
+ */
 public class SoundCloud extends AbstractServiceConsumer implements ServiceConsumer {
 
 
@@ -27,6 +33,11 @@ public class SoundCloud extends AbstractServiceConsumer implements ServiceConsum
         this.baseURL = "http://api.soundcloud.com";
     }
 
+    /**
+     * Runs a search over SoundCloud's database.
+     * @param terms Terms of the search.
+     * @return The results of the search as a list of Items.
+     */
     public List<Item> search(String terms) {
 
         String query;

@@ -7,6 +7,13 @@ import java.util.List;
 /**
  * Created by davidkanaa on 16-01-29.
  */
+
+/**
+ *
+ * A service register holds the list of all available services for
+ * modules to use.
+ *
+ */
 public class ServiceRegister{
 
     private List<ServiceConsumer> serviceConsumers;
@@ -16,6 +23,10 @@ public class ServiceRegister{
         serviceConsumers = new ArrayList<ServiceConsumer>();
     }
 
+    /**
+     *
+     * @return The sole instance of the service register.
+     */
     public static ServiceRegister getInstance_(){
 
         if (instance_ == null){
@@ -25,10 +36,18 @@ public class ServiceRegister{
         return instance_;
     }
 
+    /**
+     *
+     * @return The list of available services.
+     */
     public List<ServiceConsumer> getServiceConsumers() {
         return serviceConsumers;
     }
 
+    /**
+     * Loads a service into the service register.
+     * @param s The ServiceConsumer associated with the service provider we want to add.
+     */
     public  void loadService(ServiceConsumer s){
         serviceConsumers.add(s);
     }
