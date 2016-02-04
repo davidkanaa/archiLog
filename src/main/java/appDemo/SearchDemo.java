@@ -13,6 +13,9 @@ public class SearchDemo {
 
     public static void main(String[] args) {
 
+        // Search terms for the demo.
+        String terms = "Someone like you";
+
         // Creates Spotify and SoundCloud service consumers.
         Spotify api = new Spotify();
         SoundCloud api2 = new SoundCloud();
@@ -26,8 +29,7 @@ public class SearchDemo {
         Searcher searcher = new Searcher();
 
         // Runs the search with the given terms (as a string).
-        //searcher.search(args[0]);
-        searcher.search("Someone like you");
+        searcher.search(terms);
 
         // Prints results to the console.
         for(Item i : searcher.getResults()){
