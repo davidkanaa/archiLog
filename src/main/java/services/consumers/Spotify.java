@@ -12,7 +12,7 @@ public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
 
     public Spotify() {
         this.providerName = "Spotify";
-        this.baseURL = "https://api.spotify.com";
+        this.baseURL = "https://api.spotify.com"; // 
     }
 
     public Object search(String terms) {
