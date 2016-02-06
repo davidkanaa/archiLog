@@ -1,5 +1,6 @@
 package appDemo;
 
+import java.util.Scanner;
 import models.entities.Item;
 import modules.searcher.Searcher;
 import services.ServiceRegister;
@@ -14,7 +15,7 @@ public class SearchDemo {
     public static void main(String[] args) {
 
         // Search terms for the demo.
-        String terms = "Someone like you";
+        //String terms = "Someone like you";
 
         // Creates Spotify and SoundCloud service consumers.
         Spotify api = new Spotify();
@@ -29,7 +30,12 @@ public class SearchDemo {
         Searcher searcher = new Searcher();
 
         // Runs the search with the given terms (as a string).
-        searcher.search(terms);
+        //searcher.search(args[0]);
+        // The application ask the user for the name of the song        
+        System.out.print("Search (song/artist): ");
+        Scanner scan = new Scanner(System.in);
+        String user_input = scan.nextLine();
+        searcher.search(user_input);
 
         // Prints results to the console.
         for(Item i : searcher.getResults()){
