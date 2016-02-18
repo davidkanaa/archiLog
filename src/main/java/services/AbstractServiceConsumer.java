@@ -7,7 +7,7 @@ package services;
 /**
  *
  */
-public class AbstractServiceConsumer {
+public abstract class AbstractServiceConsumer {
 
     protected String baseURL;
     protected String clientID;
