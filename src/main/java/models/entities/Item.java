@@ -15,7 +15,7 @@ import services.ServiceConsumer;
  * by its title.
  *
  */
-public class Item {
+public abstract class Item {
 
     protected ServiceConsumer provider;
     protected String title;
