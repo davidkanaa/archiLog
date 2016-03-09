@@ -15,7 +15,7 @@
    </plugins>
 
    <features>
-      <feature id="com.mustream.app.feature"/>
+      <feature id="com.mustream.feature"/>
       <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>

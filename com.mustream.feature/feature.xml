@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="com.mustream.app.feature"
+      id="com.mustream.feature"
       label="Feature"
       version="1.0.0.qualifier"
       provider-name="MUSTREAM">
@@ -19,13 +19,6 @@
 
    <plugin
          id="com.mustream.app"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.mustream.app.system"
          download-size="0"
          install-size="0"
          version="0.0.0"
