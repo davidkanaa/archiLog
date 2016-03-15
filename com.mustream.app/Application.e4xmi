@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="ASCII"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmi:id="_PI-E4OWTEeWCXMZoLdERJg" elementId="com.mustream.app.application">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_PI-E4OWTEeWCXMZoLdERJg" elementId="com.mustream.app.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_mNZTQOYWEeW_3Mh3JNkscQ" elementId="com.mustream.app.trimmedwindow.mustream" label="MuStream-UI" x="100" y="100" width="600" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_A8pqgOYfEeW_3Mh3JNkscQ" elementId="com.mustream.app.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_CfFGkOYfEeW_3Mh3JNkscQ" elementId="com.mustream.app.perspective.mustream" label="MuStream">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_R5LdEOYfEeW_3Mh3JNkscQ" elementId="com.mustream.app.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_9aoBgOZbEeWtBPxD2fXEaA" elementId="com.mustream.app.partsashcontainer.1">
+            <children xsi:type="basic:PartStack" xmi:id="_TVHVIOZXEeW7pbE-BBZM0A" elementId="com.mustream.app.partstack.0">
+              <children xsi:type="basic:Part" xmi:id="_UEIRsOYfEeW_3Mh3JNkscQ" elementId="com.mustream.app.part.search" contributionURI="bundleclass://com.mustream.app/com.mustream.app.rcp.parts.SearchPart" label="Search"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_ppeYkOYWEeW_3Mh3JNkscQ" elementId="com.mustream.app.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_kb4cQOZsEeWIs4yJrE0Kiw" elementId="com.mustream.app.menu.services" label="Services">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_nKrk0OZsEeWIs4yJrE0Kiw" elementId="com.mustream.app.handledmenuitem.loadservices" label="Load Services" command="_7o05cOZrEeWIs4yJrE0Kiw"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_dXn2UOYfEeW_3Mh3JNkscQ" elementId="com.mustream.app.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_hgP4kOYfEeW_3Mh3JNkscQ" elementId="com.mustream.app.toolbar.0"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_kKAJEOYfEeW_3Mh3JNkscQ" elementId="com.mustream.app.toolcontrol.0"/>
+    </trimBars>
+    <trimBars xmi:id="_exxgIOYfEeW_3Mh3JNkscQ" elementId="com.mustream.app.trimbar.1" side="Bottom"/>
+  </children>
+  <handlers xmi:id="_B4eSkOZsEeWIs4yJrE0Kiw" elementId="com.mustream.app.handler.0" contributionURI="bundleclass://com.mustream.app/com.mustream.app.register.EvaluateIntegrationPointHandler" command="_7o05cOZrEeWIs4yJrE0Kiw"/>
+  <commands xmi:id="_7o05cOZrEeWIs4yJrE0Kiw" elementId="com.mustream.app.command.load" commandName="Load Services"/>
   <addons xmi:id="_PI-E4eWTEeWCXMZoLdERJg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_PI-E4uWTEeWCXMZoLdERJg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_PI-E4-WTEeWCXMZoLdERJg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
