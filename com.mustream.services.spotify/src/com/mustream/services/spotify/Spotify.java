@@ -83,7 +83,13 @@ public class Spotify extends AbstractServiceConsumer implements ServiceConsumer{
                 track.setTitle(title);
 
                 // Sets uri.
-                String uri = jsonTrack.getString("preview_url");
+                String uri;
+                if (jsonTrack.get("preview_url").equals(null)){
+                	uri = jsonTrack.getString("preview_url");
+                }
+                else{
+                	uri = "n/a";
+                }
                 track.setUri(uri);
 
                 // Sets id.
