@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/GIT/archilog/archilog.iml" filepath="$USER_HOME$/GIT/archilog/archilog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/archilog.iml" filepath="$PROJECT_DIR$/archilog.iml" />
     </modules>
   </component>
 </project>
