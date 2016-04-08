@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9ce0f7b-eba6-4433-b5a7-d2c281651188" name="Default" comment="Updated workspace.">
+    <list default="true" id="a9ce0f7b-eba6-4433-b5a7-d2c281651188" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MuStream.iws" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="-1458">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -87,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/test/java/unit/searcher/SearcherTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sample.fxml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -825,14 +826,7 @@
       <workItem from="1460072512273" duration="19000" />
       <workItem from="1460073491221" duration="21000" />
       <workItem from="1460073543399" duration="544000" />
-      <workItem from="1460074089676" duration="31000" />
-    </task>
-    <task id="LOCAL-00002" summary="Added entities interfaces : Item, Playlist, Track.">
-      <created>1454107229304</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1454107229304</updated>
+      <workItem from="1460074089676" duration="77000" />
     </task>
     <task id="LOCAL-00003" summary="Added the ServiceConsumer interface.">
       <created>1454107376814</created>
@@ -1170,7 +1164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460073948853</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Updated workspace.">
+      <created>1460074124675</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1460074124675</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1185,7 +1186,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104121000" />
+    <option name="totallyTimeSpent" value="104167000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1207,7 +1208,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50215054" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297561" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2224924" sideWeight="0.49784946" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22303474" sideWeight="0.49784946" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1270,7 +1271,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added  a result attribute to the searcher." />
     <MESSAGE value="Added  the player module." />
     <MESSAGE value="Added  PlayerState, Paused, Playing classes and state attribute." />
     <MESSAGE value="Added loadService method." />
@@ -1295,7 +1295,8 @@
     <MESSAGE value="Added SearcherTest class for unit test on the Searcher." />
     <MESSAGE value="Added the 'abstract' keyword to Item." />
     <MESSAGE value="Updatted workspace." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updatted workspace." />
+    <MESSAGE value="Updated workspace." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated workspace." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1377,8 +1378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="-1458">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding />
         </state>
       </provider>
