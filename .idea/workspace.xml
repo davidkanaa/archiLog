@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9ce0f7b-eba6-4433-b5a7-d2c281651188" name="Default" comment="" />
+    <list default="true" id="a9ce0f7b-eba6-4433-b5a7-d2c281651188" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MuStream.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
-    <ignored path="$USER_HOME$/GIT/archilog/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/GIT/archilog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -46,33 +48,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/models/entities/AbstractItem.java" />
-        <option value="$USER_HOME$/GIT/archilog/pom.xml" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/services/ServiceConsumer.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/Searcher.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/Player.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/player/Playing.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/player/Paused.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/player/IPlayer.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/player/PlayerState.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/Application.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/player/Player.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/models/entities/Playlist.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/models/entities/Track.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/modules/searcher/Searcher.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/services/ServiceRegister.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/services/consumers/SoundCloud.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/services/consumers/Spotify.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/AppDemo/Application.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/AppDemo/SearchDemo.java" />
-        <option value="$USER_HOME$/GIT/archilog/archilog.iml" />
-        <option value="$USER_HOME$/GIT/archilog/.classpath" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/appDemo/SearchDemo.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/services/AbstractServiceConsumer.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/test/java/unit/SearcherTest.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/java/models/entities/Item.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/test/java/unit/searcher/SearcherTest.java" />
-        <option value="$USER_HOME$/GIT/archilog/src/main/resources/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/models/entities/AbstractItem.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ServiceConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/player/Playing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/player/Paused.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/player/IPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/player/PlayerState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/entities/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/entities/Track.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/searcher/Searcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ServiceRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/consumers/SoundCloud.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/consumers/Spotify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AppDemo/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AppDemo/SearchDemo.java" />
+        <option value="$PROJECT_DIR$/archilog.iml" />
+        <option value="$PROJECT_DIR$/.classpath" />
+        <option value="$PROJECT_DIR$/src/main/java/appDemo/SearchDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/AbstractServiceConsumer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unit/SearcherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/entities/Item.java" />
+        <option value="$PROJECT_DIR$/src/test/java/unit/searcher/SearcherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sample.fxml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -170,9 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,8 +183,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MuStream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archilog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MuStream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archilog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MuStream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archilog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MuStream" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archilog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,6 +258,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -748,6 +812,8 @@
       <workItem from="1460071909284" duration="59000" />
       <workItem from="1460072284193" duration="56000" />
       <workItem from="1460072512273" duration="19000" />
+      <workItem from="1460073491221" duration="21000" />
+      <workItem from="1460073543399" duration="385000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialisation.">
       <created>1454104168033</created>
@@ -1078,7 +1144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1455840207853</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Updatted workspace.">
+      <created>1460073863623</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1460073863623</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1093,7 +1166,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103525000" />
+    <option name="totallyTimeSpent" value="103931000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1114,27 +1187,27 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.50215054" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297561" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21884498" sideWeight="0.49784946" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22303474" sideWeight="0.49784946" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18451025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2902701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32695866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6332715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1178,7 +1251,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added The Searcher module." />
     <MESSAGE value="Added  a result attribute to the searcher." />
     <MESSAGE value="Added  the player module." />
     <MESSAGE value="Added  PlayerState, Paused, Playing classes and state attribute." />
@@ -1203,7 +1275,8 @@
     <MESSAGE value="Added the 'abstract' keyword  AbstractServiceConsumer." />
     <MESSAGE value="Added SearcherTest class for unit test on the Searcher." />
     <MESSAGE value="Added the 'abstract' keyword to Item." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the 'abstract' keyword to Item." />
+    <MESSAGE value="Updatted workspace." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updatted workspace." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1216,26 +1289,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/consumers/SoundCloud.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/consumers/SoundCloud.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/pom.xml" />
-    <entry file="file://$USER_HOME$/GIT/archilog/pom.xml" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/appDemo/SearchDemo.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/appDemo/SearchDemo.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/appDemo/SearchDemo.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/models/entities/Playlist.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/AbstractServiceConsumer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/appDemo/SearchDemo.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/consumers/SoundCloud.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/ServiceConsumer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/AbstractServiceConsumer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/appDemo/SearchDemo.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/models/entities/Track.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/ServiceConsumer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/AbstractServiceConsumer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/models/entities/Track.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/ServiceConsumer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/ServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/consumers/SoundCloud.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/consumers/SoundCloud.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/appDemo/SearchDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/appDemo/SearchDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/appDemo/SearchDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/entities/Playlist.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/AbstractServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/appDemo/SearchDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/consumers/SoundCloud.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/AbstractServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/appDemo/SearchDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/entities/Track.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/AbstractServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/entities/Track.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ServiceConsumer.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar!/org/glassfish/json/JsonReaderImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1250,26 +1323,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/modules/player/Playing.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/modules/player/PlayerState.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/modules/player/Paused.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/modules/player/Player.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/.classpath" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/models/entities/Playlist.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/ServiceConsumer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/modules/searcher/Searcher.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/ServiceRegister.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/AbstractServiceConsumer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/models/entities/Track.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/pom.xml" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/appDemo/SearchDemo.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/models/entities/Item.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/modules/player/IPlayer.java" />
-    <entry file="file://$USER_HOME$/GIT/archilog/src/main/java/services/consumers/SoundCloud.java" />
-    <entry file="file://$PROJECT_DIR$/MuStream.userlibraries">
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/player/Playing.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/player/PlayerState.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/player/Paused.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/player/Player.java" />
+    <entry file="file://$PROJECT_DIR$/.classpath" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/entities/Playlist.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/searcher/Searcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ServiceRegister.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/AbstractServiceConsumer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/entities/Track.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/appDemo/SearchDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/entities/Item.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/player/IPlayer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/consumers/SoundCloud.java" />
+    <entry file="file://$PROJECT_DIR$/MuStream.userlibraries" />
+    <entry file="file://$PROJECT_DIR$/archilog.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
