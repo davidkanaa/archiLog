@@ -1,9 +1,11 @@
 package com.mustream.app.models.entities;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by davidkanaa on 16-01-29.
+ * Last modified by Akilah Calliste-Woollard on 16-03-28
  */
 
 /**
@@ -17,9 +19,12 @@ import java.util.List;
 public class Track extends Item {
 
     protected String albumName;
-    protected List<String> artitsNames;
+    protected List<String> artistNames;
     protected long duration; // in milliseconds.
 
+    public Track(){
+    	artistNames = new ArrayList<String>();
+    }
     /**
      *
      * @return The name of the album of the current track.
@@ -40,16 +45,16 @@ public class Track extends Item {
      *
      * @return The list of artists for the current track.
      */
-    public List<String> getArtitsNames() {
-        return artitsNames;
+    public List<String> getartistNames() {
+        return artistNames;
     }
 
     /**
      *
-     * @param artitsNames
+     * @param artistNames
      */
-    public void setArtitsNames(List<String> artitsNames) {
-        this.artitsNames = artitsNames;
+    public void setartistNames(List<String> artistNames) {
+        this.artistNames = artistNames;
     }
 
     /**
@@ -72,10 +77,10 @@ public class Track extends Item {
     public String toString() {
         return "Track{" + '\n'+
                 "id = " + id + '\n'+
-                "title = " + title + '\n'+
+                "title = " + name + '\n'+
                 "uri = " + uri + '\n'+
                 "albumName = '" + albumName + '\'' + "," + '\n'+
-                "artitsNames = " + artitsNames + "," +'\n'+
+                "artistNames = " + artistNames + "," +'\n'+
                 "duration = " + duration + '\n' +
                 "};";
     }

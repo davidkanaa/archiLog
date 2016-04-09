@@ -15,7 +15,7 @@ package com.mustream.app.models.entities;
  */
 public abstract class Item {
 
-    protected String title;
+    protected String name;
     protected String uri;
     protected String id; // The id of the item in the db of its service provider.
 
@@ -24,16 +24,16 @@ public abstract class Item {
      *
      * @return The title of the current item.
      */
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
     /**
      *
      * @param title
      */
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**

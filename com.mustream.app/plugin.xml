@@ -13,7 +13,55 @@
                name="appName"
                value="mustream">
          </property>
+         <property
+     name="applicationCSS"
+     value="platform:/plugin/com.mustream.app/css/default.css">
+   </property>
       </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.mustream.app.rcp.trimbar.PartTry"
+            id="com.mustream.app.rcp.trimbar.PartTry"
+            name="New ViewPart">
+      </view>
+      <view
+            class="com.mustream.app.rcp.trimbar.paerr"
+            id="com.mustream.app.rcp.trimbar.paerr"
+            name="New ViewPart">
+      </view>
+      <view
+            class="com.mustream.app.rcp.trimbar.view"
+            id="com.mustream.app.rcp.trimbar.view"
+            name="New ViewPart">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.mustream.app.rcp.trimbar.p"
+            id="com.mustream.app.rcp.trimbar.p"
+            name="New Perspective">
+      </perspective>
+      <perspective
+            class="com.mustream.app.rcp.trimbar.peer"
+            id="com.mustream.app.rcp.trimbar.peer"
+            name="New Perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.mustream.app.rcp.trimbar.m"
+            id="com.mustream.app.rcp.trimbar.m"
+            name="New MultiPageEditorPart">
+      </editor>
+      <editor
+            class="com.mustream.app.rcp.trimbar.g"
+            id="com.mustream.app.rcp.trimbar.g"
+            name="New EditorPart">
+      </editor>
    </extension>
 
 </plugin>

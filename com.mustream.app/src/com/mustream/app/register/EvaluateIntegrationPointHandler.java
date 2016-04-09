@@ -6,7 +6,6 @@ import org.eclipse.core.runtime.IExtensionRegistry;
 import org.eclipse.core.runtime.ISafeRunnable;
 import org.eclipse.core.runtime.SafeRunner;
 import org.eclipse.e4.core.di.annotations.Execute;
-
 import com.mustream.app.services.AbstractServiceConsumer;
 import com.mustream.app.services.ServiceConsumer;
 
@@ -32,8 +31,9 @@ public class EvaluateIntegrationPointHandler {
 	    } catch (CoreException ex) {
 	      System.out.println(ex.getMessage());
 	    }
+	   
 	  }
-
+	
 	  private void executeExtension(final Object o) {
 	    ISafeRunnable runnable = new ISafeRunnable() {
 	      @Override

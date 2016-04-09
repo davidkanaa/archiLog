@@ -1,9 +1,10 @@
 package com.mustream.app.models.entities;
-
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by davidkanaa on 16-01-29.
+ * Last modified by Akilah Calliste-Woollard on 16-03-28
  */
 
 /**
@@ -13,8 +14,14 @@ import java.util.List;
  */
 
 public class Playlist extends Item {
-
-    protected List<Track> tracks;
+	protected String title;
+	public List<Track> tracks;
+	
+	public Playlist(String name){
+		title = name;
+		tracks = new ArrayList<Track>();
+	}
+    
 
     /**
      *
